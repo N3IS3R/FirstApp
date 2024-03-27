@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TMApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- bottomBar -->
+    <string name="Tickets">Tickets</string>
+    <string name="Update">Update</string>
+    <string name="Delete">Delete</string>
+    <string name="Show">Show</string>
+    <string name="Details">Details</string>
+    <string name="Note">Note</string>
+    <string name="Login">Login</string>
+
+
+
+
+
+</resources>

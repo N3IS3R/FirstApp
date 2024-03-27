@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/addTicketFragment">
+
+    <fragment
+        android:id="@+id/addTicketFragment"
+        android:name="com.neiser.tmapp.ui.ticket.AddTicketFragment"
+        android:label="fragment_add_ticket"
+        tools:layout="@layout/fragment_add_ticket" />
+    <fragment
+        android:id="@+id/detailsTicketFragment"
+        android:name="com.neiser.tmapp.ui.ticket.DetailsTicketFragment"
+        android:label="fragment_details_ticket"
+        tools:layout="@layout/fragment_details_ticket" />
+    <fragment
+        android:id="@+id/deleteTicketFragment"
+        android:name="com.neiser.tmapp.ui.ticket.DeleteTicketFragment"
+        android:label="fragment_delete_ticket"
+        tools:layout="@layout/fragment_delete_ticket" />
+    <fragment
+        android:id="@+id/noteTicketFragment"
+        android:name="com.neiser.tmapp.ui.ticket.NoteTicketFragment"
+        android:label="fragment_note_ticket"
+        tools:layout="@layout/fragment_note_ticket" />
+    <fragment
+        android:id="@+id/updateTicketFragment"
+        android:name="com.neiser.tmapp.ui.ticket.UpdateTicketFragment"
+        android:label="fragment_update_ticket"
+        tools:layout="@layout/fragment_update_ticket" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.neiser.tmapp.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+</navigation>
