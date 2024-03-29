@@ -7,8 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.neiser.tmapp.R
 import com.neiser.tmapp.databinding.FragmentAddTicketBinding
+import dagger.hilt.android.AndroidEntryPoint
 
 
+@AndroidEntryPoint
 class AddTicketFragment : Fragment() {
 
     private var _binding:FragmentAddTicketBinding? = null

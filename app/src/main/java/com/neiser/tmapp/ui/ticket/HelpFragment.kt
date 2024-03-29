@@ -8,8 +8,9 @@ import android.view.ViewGroup
 import com.neiser.tmapp.R
 import com.neiser.tmapp.databinding.FragmentAddTicketBinding
 import com.neiser.tmapp.databinding.FragmentHelpBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class HelpFragment : Fragment() {
     private var _binding: FragmentHelpBinding? = null
     private val binding get() = _binding!!

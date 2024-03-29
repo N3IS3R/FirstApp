@@ -8,8 +8,9 @@ import android.view.ViewGroup
 import com.neiser.tmapp.R
 import com.neiser.tmapp.databinding.FragmentAddTicketBinding
 import com.neiser.tmapp.databinding.FragmentDeleteTicketBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class DeleteTicketFragment : Fragment() {
 
     private var _binding: FragmentDeleteTicketBinding? = null

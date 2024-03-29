@@ -8,8 +8,9 @@ import android.view.ViewGroup
 import com.neiser.tmapp.R
 import com.neiser.tmapp.databinding.FragmentAddTicketBinding
 import com.neiser.tmapp.databinding.FragmentDetailsTicketBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class DetailsTicketFragment : Fragment() {
     private var _binding: FragmentDetailsTicketBinding? = null
     private val binding get() = _binding!!
