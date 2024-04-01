@@ -13,6 +13,12 @@
     <string name="Login">Login</string>
 
 
+    <!-- TicketsExample -->
+    <string name="plomeria">Plomeria</string>
+    <string name="albañileria">Albañileria</string>
+    <string name="carpinteria">Carpinteria</string>
+    <string name="electricidad">Electricidad</string>
+
 
 
 
