@@ -5,11 +5,7 @@
 
     <!-- bottomBar -->
     <string name="Tickets">Tickets</string>
-    <string name="Update">Update</string>
-    <string name="Delete">Delete</string>
-    <string name="Show">Show</string>
-    <string name="Details">Details</string>
-    <string name="Note">Note</string>
+    <string name="Info">Info</string>
     <string name="Login">Login</string>
 
 
@@ -18,8 +14,6 @@
     <string name="albañileria">Albañileria</string>
     <string name="carpinteria">Carpinteria</string>
     <string name="electricidad">Electricidad</string>
-
-
 
 
 </resources>

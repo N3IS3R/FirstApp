@@ -11,27 +11,12 @@
         android:label="fragment_add_ticket"
         tools:layout="@layout/fragment_add_ticket" />
     <fragment
-        android:id="@+id/detailsTicketFragment"
-        android:name="com.neiser.tmapp.ui.details.DetailsTicketFragment"
-        android:label="fragment_details_ticket"
-        tools:layout="@layout/fragment_details_ticket" />
+        android:id="@+id/infoFragment"
+        android:name="com.neiser.tmapp.ui.info.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
     <fragment
-        android:id="@+id/deleteTicketFragment"
-        android:name="com.neiser.tmapp.ui.ticket.DeleteTicketFragment"
-        android:label="fragment_delete_ticket"
-        tools:layout="@layout/fragment_delete_ticket" />
-    <fragment
-        android:id="@+id/noteTicketFragment"
-        android:name="com.neiser.tmapp.ui.notes.NoteTicketFragment"
-        android:label="fragment_note_ticket"
-        tools:layout="@layout/fragment_note_ticket" />
-    <fragment
-        android:id="@+id/updateTicketFragment"
-        android:name="com.neiser.tmapp.ui.ticket.UpdateTicketFragment"
-        android:label="fragment_update_ticket"
-        tools:layout="@layout/fragment_update_ticket" />
-    <fragment
-        android:id="@+id/loginFragment"
+        android:id="@+id/loginFragment2"
         android:name="com.neiser.tmapp.ui.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />

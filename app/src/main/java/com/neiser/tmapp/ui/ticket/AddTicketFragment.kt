@@ -10,10 +10,12 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle.State.*
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.neiser.tmapp.R
 import com.neiser.tmapp.databinding.FragmentAddTicketBinding
-import com.neiser.tmapp.ui.details.DetailsViewModel
+import com.neiser.tmapp.domain.TicketInfo
+
 import com.neiser.tmapp.ui.ticket.adapter.AddTicketAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
@@ -38,19 +40,19 @@ class AddTicketFragment : Fragment() {
     }
 
     private fun initUI() {
-        initRecyceView()
+        initRecycleView()
         initUIState()
     }
 
-    private fun initRecyceView() {
-      adapter = AddTicketAdapter()
-
-        binding.rvAddTicket.apply {
-            layoutManager = LinearLayoutManager(context)
-            adapter = adapter
+    private fun initRecycleView() {
+        val list = mutableListOf<TicketInfo>()
+        list.add(TicketInfo("fghfgh","fghfgh","fghfgh",R.drawable.carpinteria ))
+      adapter = AddTicketAdapter(list)
+      binding.rvAddTicket.apply {
+          layoutManager = GridLayoutManager(context, 2)
+          adapter = adapter
         }
-        binding.rvAddTicket.layoutManager = LinearLayoutManager(context)
-        binding.rvAddTicket.adapter = adapter
+
     }
 
     private fun initUIState() {

@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.neiser.tmapp.R
 import com.neiser.tmapp.domain.TicketInfo
 
-class AddTicketAdapter(private var ticketList:List<TicketInfo> = emptyList()) :
+class AddTicketAdapter(private var ticketList:List<TicketInfo>) :
     RecyclerView.Adapter<AddTicketViewHolder>(){
 
     fun updateList(list: List<TicketInfo>){

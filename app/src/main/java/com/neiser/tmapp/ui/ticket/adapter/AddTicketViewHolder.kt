@@ -10,8 +10,8 @@ class AddTicketViewHolder(view: View):RecyclerView.ViewHolder(view) {
     private val binding = ItemTicketsBinding.bind(view)
     fun render(ticketInfo: TicketInfo){
         val context = binding.tvTitle.context
-        //binding.tvTitle.text = context.getString(TicketInfo.tipoAveria)
-        binding.ivTicket.setImageResource(ticketInfo.imgAveria)
+        binding.tvTitle.text = ticketInfo.tipo
+        binding.ivTicket.setImageResource(ticketInfo.img)
 
     }
 }

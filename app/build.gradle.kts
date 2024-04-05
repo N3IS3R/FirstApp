@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
     id("com.google.dagger.hilt.android")
+
 }
 
 android {
@@ -37,9 +38,6 @@ android {
     }
     buildFeatures{
         viewBinding = true
-    }
-    kotlin{
-        jvmToolchain(8)
     }
 }
 

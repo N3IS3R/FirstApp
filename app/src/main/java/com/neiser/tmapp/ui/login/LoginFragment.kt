@@ -9,7 +9,7 @@ import androidx.fragment.app.viewModels
 import com.neiser.tmapp.R
 import com.neiser.tmapp.databinding.FragmentAddTicketBinding
 import com.neiser.tmapp.databinding.FragmentLoginBinding
-import com.neiser.tmapp.ui.details.DetailsViewModel
+
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

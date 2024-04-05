@@ -8,14 +8,11 @@
         />
 
     <item
-        android:id="@+id/detailsTicketFragment"
-        android:title="@string/Show"
+        android:id="@+id/infoFragment"
+        android:title="@string/Info"
         android:icon="@drawable/ic_show"/>
 
-    <item
-        android:id="@+id/noteTicketFragment"
-        android:title="@string/Note"
-        android:icon="@drawable/notes_task_icon_133450"/>
+
     <item
         android:id="@+id/loginFragment"
         android:title="@string/Login"

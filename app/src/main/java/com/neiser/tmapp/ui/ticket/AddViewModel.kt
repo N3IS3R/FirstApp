@@ -14,10 +14,5 @@ class AddViewModel @Inject constructor() : ViewModel() {
     private var _ticket = MutableStateFlow<List<TicketInfo>>(emptyList())
     val ticket:StateFlow<List<TicketInfo>> = _ticket
 
-    init {
-        _ticket.value = listOf(
-            TicketInfo.Carpinteria, TicketInfo.Plomeria, TicketInfo.Albañileria, TicketInfo.Electricidad
-        )
-    }
 
 }
